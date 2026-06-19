@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason Gilbert - Coder</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #000; color: #fff; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+    header { text-align: center; margin-bottom: 3rem; }
+    h1 { font-size: 2.5rem; font-weight: 300; letter-spacing: 0.1em; margin-bottom: 1rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 1.5rem; }
+    nav a { color: #fff; text-decoration: none; font-size: 0.9rem; text-transform: uppercase; }
+    .mission { margin-bottom: 3rem; padding: 1.5rem; border-left: 3px solid rgba(255,255,255,0.3); }
+    .mission h2 { font-size: 1.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .mission p { font-size: 1rem; color: rgba(255,255,255,0.85); }
+    .sections { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .section { padding: 1.5rem; border: 1px solid rgba(255,255,255,0.1); }
+    .section-num { font-size: 3rem; font-weight: 300; color: rgba(255,255,255,0.3); }
+    .section h3 { font-size: 1.3rem; font-weight: 400; margin: 0.5rem 0; }
+    .section p { font-size: 0.9rem; color: rgba(255,255,255,0.75); }
+    @media (max-width: 768px) {
+      .container { padding: 1rem; }
+      h1 { font-size: 1.8rem; }
+      nav { gap: 0.5rem; font-size: 0.8rem; }
+      .sections { grid-template-columns: 1fr; gap: 1rem; }
+      .section { padding: 1rem; }
+      .section-num { font-size: 2rem; }
+      .section h3 { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>JASON GILBERT</h1>
+      <nav>
+        <a href="#value">VALUE</a>
+        <a href="#drives">DRIVES</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#roadmap">ROADMAP</a>
+      </nav>
+    </header>
+    <section class="mission">
+      <h2>I start with the mission.</h2>
+      <p>I lead from the user's own definition of success. Before tactics or technology, I get clear on what winning means — then orient everything toward it.</p>
+    </section>
+    <section class="sections">
+      <article class="section">
+        <div class="section-num">01</div>
+        <h3>Strategic Advice & Advocacy</h3>
+        <p>A trusted voice advising where it counts.</p>
+      </article>
+      <article class="section">
+        <div class="section-num">02</div>
+        <h3>Credibility & Trust</h3>
+        <p>Earned over 24 years at senior levels.</p>
+      </article>
+      <article class="section">
+        <div class="section-num">03</div>
+        <h3>Command That Lands</h3>
+        <p>Conversation between boardroom and engineering.</p>
+      </article>
+      <article class="section">
+        <div class="section-num">04</div>
+        <h3>Your Mission, Our Priority</h3>
+        <p>Success defined by you, delivered by me.</p>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
